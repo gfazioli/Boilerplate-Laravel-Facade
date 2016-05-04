@@ -1,4 +1,4 @@
-# Boilerplate-Laravel-Facade
+# Boilerplate Laravel Facade
 
 A simple Boilerplace for Laravel Facade and Service Provider
 
@@ -29,7 +29,7 @@ and then add the facade to your `aliases` array
 ```php
 'aliases' => [
   ...
-  'BoilerplateLaravel' => gfazioli\BoilerplateLaravel\Facades\BoilerplateLaravel::class,
+  'BoilerplateLaravel' => gfazioli\BoilerplateLaravel\Facades\BoilerplateLaravelFacade::class,
 ],
 ```
 
@@ -41,6 +41,10 @@ Publish the configuration file with:
 // Laravel 5, file will be at config/boilerplate.php
 php artisan vendor:publish
 ```
+
+### Test
+
+Now you may use `BoilerplateLaravel::helloWorld();`
 
 ### Renaming
 
